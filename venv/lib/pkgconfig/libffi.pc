@@ -1,0 +1,11 @@
+prefix=/Users/vaibhavkavdia/Desktop/Projects for Resume/Fun/bot/venv
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+toolexeclibdir=${libdir}
+includedir=/Users/vaibhavkavdia/Desktop/Projects for Resume/Fun/bot/venv/include
+
+Name: libffi
+Description: Library supporting Foreign Function Interfaces
+Version: 3.4.4
+Libs: -L${toolexeclibdir} -lffi
+Cflags: -I${includedir}

@@ -1,0 +1,13 @@
+prefix=/Users/vaibhavkavdia/Desktop/Projects for Resume/Fun/bot/venv
+exec_prefix=/Users/vaibhavkavdia/Desktop/Projects for Resume/Fun/bot/venv
+libdir=/Users/vaibhavkavdia/Desktop/Projects for Resume/Fun/bot/venv/lib
+sharedlibdir=/Users/vaibhavkavdia/Desktop/Projects for Resume/Fun/bot/venv/lib
+includedir=/Users/vaibhavkavdia/Desktop/Projects for Resume/Fun/bot/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
